@@ -1,0 +1,17 @@
+.choice {
+  /* background-color: red; */
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+.your-choice,
+.cumputer-choice {
+  display: flex;
+  justify-content: center;
+}
+.result{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  
+}
