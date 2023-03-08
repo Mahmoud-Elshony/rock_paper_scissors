@@ -22,3 +22,18 @@
   bottom: 20%;
   left: 45%;
 }
+.active {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 1s;
+  position:relative;
+}
+
+@keyframes example {
+ 0%{top:0px;}
+ 50%{top:145px}
+ 100%{top:0px}
+}
